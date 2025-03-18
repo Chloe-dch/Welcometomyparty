@@ -37,19 +37,17 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         
-       .main-photo {
-    width: 200px;
-    border-radius: 50%;
-    animation: shake 1s infinite alternate ease-in-out;
-}
+        .main-photo {
+            width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 50px auto; /* 让图片居中 */
+            animation: shake 1s infinite alternate ease-in-out;
+        }
 
-@keyframes shake {
-    0% { transform: rotate(-5deg); }
-    100% { transform: rotate(5deg); }
-}
-
-        .main-photo:hover {
-            transform: rotate(360deg) scale(1.1);
+        @keyframes shake {
+            0% { transform: rotate(-5deg); }
+            100% { transform: rotate(5deg); }
         }
         
         .schedule {
