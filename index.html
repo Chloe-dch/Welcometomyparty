@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xin Yee's 生日派对邀请</title>
+    <title>Xin Yee 的生日派对邀请</title>
     <style>
         body {
             text-align: center;
             font-family: Arial, sans-serif;
-          babackground: url('https://raw.githubusercontent.com/chloe-dch/Welcometomyparty/main/images/background.jpeg') no-repeat center center fixed;
+            background: url('https://raw.githubusercontent.com/chloe-dch/Welcometomyparty/main/images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
         .container {
+            background: rgba(0, 0, 0, 0.6);
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            display: inline-block;
             border-radius: 15px;
-            padding: 20px;
+            display: inline-block;
+            margin-top: 50px;
         }
         .main-photo {
             width: 200px;
@@ -24,16 +27,30 @@
         .main-photo:hover {
             transform: rotate(360deg) scale(1.1);
         }
+        .schedule {
+            text-align: left;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎉 邀请函 🎉</h1>
-        <h2>欢迎参加Xin Yee的生日派对！</h2>
-        <p>📍 地点: 6, Laluan Mewah Indah 3</p>
-        <p>🗺️ <a href="https://maps.app.goo.gl/f9NHgekBHDrZtaxa7" target="_blank">点击查看地图</a></p>
-        <img class="main-photo" src="WhatsApp Image 2025-03-18 at 3.55.14 PM.jpeg" alt="Xin Yee">
-        <p>期待你的到来！🎂🥳</p>
+        <h1>🎉 你受邀参加 Xin Yee 的生日派对！🎉</h1>
+        <img class="main-photo" src="https://raw.githubusercontent.com/chloe-dch/Welcometomyparty/main/images/xinyee.jpg" alt="Xin Yee">
+        <p>亲爱的朋友们，Xin Yee 诚挚邀请你们参加她的生日派对！🎂✨</p>
+        <p><strong>📍 地址：</strong>6, Laluan Mewah Indah 3</p>
+        <p><a href="https://maps.app.goo.gl/f9NHgekBHDrZtaxa7" target="_blank" style="color: yellow;">点击查看 Google 地图</a></p>
+        
+        <div class="schedule">
+            <h2>🎊 派对行程 🎊</h2>
+            <ul>
+                <li>🕒 3:00 PM - 欢迎入场 & 拍照打卡 📸</li>
+                <li>🍰 4:00 PM - 生日蛋糕 & 许愿仪式 🎂</li>
+                <li>🎁 5:00 PM - 礼物交换 & 游戏互动 🎮</li>
+                <li>🍽️ 6:00 PM - 晚餐时间 🍕</li>
+                <li>🎶 8:00 PM - KTV & 音乐派对 🎤</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
